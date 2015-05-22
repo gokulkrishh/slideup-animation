@@ -20,23 +20,11 @@
 	<!-- Nexus5 -->
 	<div class="example">
 		<div class="phone-base">
+			<input type="checkbox" id="open-app" title="Open an app">
+			<label for="open-app"><span></span></label>
 			<div id="app"></div>
 		</div>
-		<div id="open-app" title="Open an app"><span class="open-app-img"></span></div>
 	</div>
 	
-	<script>
-		var openBtn = document.getElementById('open-app')
-		openBtn.addEventListener('click', function () {
-		var app = document.getElementById('app');
-			if (app.style.top === '60px') {
-				app.style.top = '604px';
-			}
-			else {
-				app.style.top = '60px';
-			}
-		  
-		})
-	</script>
 </body>
 </html>
